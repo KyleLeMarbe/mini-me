@@ -6,6 +6,7 @@ var builder = Host.CreateApplicationBuilder(args);
 
 builder.Services.AddAgentFramework(builder.Configuration);
 builder.Services.AddAgent<EchoAgent>();
+builder.Services.AddAgent<TeamWinsGratitudeAgent>();
 
 var host = builder.Build();
 host.UseAgentFramework();
