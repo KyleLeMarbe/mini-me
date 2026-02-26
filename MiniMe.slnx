@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MiniMe.Core/MiniMe.Core.csproj" />
+    <Project Path="src/MiniMe.Host/MiniMe.Host.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MiniMe.Core.Tests/MiniMe.Core.Tests.csproj" />
+  </Folder>
+</Solution>
